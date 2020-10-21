@@ -17,6 +17,115 @@ body{
    color: white;
    text-align: center;
 }
+.grid{
+   display: grid;
+   grid-template-columns: 370px 370px 370px;
+   grid-template-rows: 310px;
+   gap: 30px;
+   width: 1170px;
+   height: 310px;
+   margin-left: auto;
+   margin-right: auto;
+   color: white;
+}
+.one{
+   background-image: url(../img/img1.png);
+   position: relative;
+   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+
+}
+.two{
+   background-image: url(../img/img2.png);
+   position: relative;
+   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+.three{
+   background-image: url(../img/img3.png);
+   position: relative;
+   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+.date{
+   width: 60px;
+   height: 60px;
+   font-size: 22px;
+   background-color:#2626269f;
+   border-radius: 5px;
+   margin-top: 30px;
+   margin-left: 30px;
+   font-weight: 700;
+   text-align: center;
+   line-height: 25px;
+}
+span{
+   font-size: 21px;
+   font-weight: bold;
+   line-height: 25px;
+}
+.article{
+   position: absolute;
+   top: 65%;
+   width: 100%;
+   height: 35%;
+}
+.article div:first-child {
+   margin-top: 15px;
+   font-size: 20px;
+   font-weight: 700;
+   padding-left: 20px;
+}
+.article div:last-child {
+   margin-top: 15px;
+   font-size: 13px;    
+   font-weight: 300;
+   padding-left: 20px;
+}
+.one:hover .article{
+   background-image: linear-gradient( to top ,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.3) 80%, transparent 100%);
+}
+.one:hover {
+   transform: scale(1.1);
+   transition: all .5s ease-in;
+}
+.two:hover .article{
+   background-image: linear-gradient( to top ,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.3) 80%, transparent 100%);
+}
+.two:hover {
+   transform: scale(1.1);
+   transition: all .4s ease-in;
+}
+.three:hover .article{
+   background-image: linear-gradient( to top ,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.3) 80%, transparent 100%);
+}
+.three:hover {
+   transform: scale(1.1);
+   transition: all .4s ease-in;
+}
+form{
+   margin-top: 80px;
+   margin-bottom: 50px;
+   width: 200px;
+   height: 55px;
+   margin-left: auto;
+   margin-right: auto;
+}
+button{
+   width: 250px;
+   height: 60px;
+   font-family: 'Raleway', Lite, sans-serif;
+   background-color: #f72b3b;
+   font-size: 30px;
+   cursor: pointer;
+   font-weight: 300;
+   text-align: center;
+}
+button:hover{
+   background-color: black;
+   color: red;
+}
+
+
+
+
 
 
    
